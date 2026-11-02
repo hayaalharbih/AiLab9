@@ -22,5 +22,13 @@ Sum = 0.
 ERROR: Stream user_input:20:1 Syntax error: Unexpected end of clause
 101 ?- sumlist([], Sum).
 Sum = 0.
+102 ?- calculate_total_average.
+Enter first number: 8
+|: .
+Enter second number: |: 9.
+Enter third number: |: 43.
+Total: 60
+Average: 20
+true.
 
-101 ?- 
+103 ?- 
