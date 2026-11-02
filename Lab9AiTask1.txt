@@ -1,0 +1,27 @@
+Welcome to SWI-Prolog (threaded, 64 bits, version 10.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit https://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+92 ?- consult(['c:/Users/alhar/Downloads/boolean.pl']).
+true.
+
+93 ?- logicGate(true, true, Output).
+Output = true.
+
+94 ?- logicGate(true, false, Output).
+Output = false.
+
+95 ?- ;
+|    .
+ERROR: Unknown procedure: user:(;)/0
+ERROR:     However, there are definitions for:
+ERROR:         (;)/2
+false.
+
+96 ?- logicGate(false, true, Output).
+Output = false.
+
+97 ?- logicGate(false, 

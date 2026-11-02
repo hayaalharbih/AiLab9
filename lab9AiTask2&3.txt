@@ -1,0 +1,26 @@
+Welcome to SWI-Prolog (threaded, 64 bits, version 10.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit https://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+98 ?- consult(['c:/Users/alhar/Downloads/lab8_tasks.pl']).
+true.
+
+99 ?- sumlist([1, 2, 5, 7], Sum).
+Sum = 15.
+
+100 ?- sumlist([], Sum).
+Sum = 0.
+
+101 ?- sumlist([], Sum).
+Sum = 0.
+
+101 ?- .
+
+ERROR: Stream user_input:20:1 Syntax error: Unexpected end of clause
+101 ?- sumlist([], Sum).
+Sum = 0.
+
+101 ?- 
